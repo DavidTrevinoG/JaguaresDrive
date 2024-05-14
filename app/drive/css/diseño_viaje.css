@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-image: url('img/fondo.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+#sidebar {
+    background: purple;
+    width: 180px;
+    height: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    background-color: purple;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#content {
+    flex-grow: 1;
+    padding: 20px;
+    height: 85%;
+    overflow-y: auto; 
+}
+
+.container-content {
+    background-color: #E6E6E6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+    max-height: 100%;
+    overflow-y: auto;
+    height: 100vh; 
+}
+
+.menu-item {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+.white-text {
+    color: white;
+}
+
+.menu-item:hover {
+    background-color: #c4c0c0; 
+    color: #000; 
+}
+
+.container-content {
+    background-color: #E6E6E6; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 200px;
+}
+.inner-container {
+    background-color: #D9D9D9; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px; 
+}
+
+.otro-contenedor {
+    background-color: #d0d0d3; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px; 
+}
+
+.avatar-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin: 0 auto; 
+    margin-bottom: 10px; 
+}
+
+.avatar-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%; 
+}
+
+.avatar-container-large {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+
+.avatar-img-large {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%; 
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    background-color: #B8B8B8;
+    border-radius: 20px; 
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px; 
+    color: black;
+    outline: none;
+}
+
+.btn-buscar {
+    background-color: purple; 
+    border-color: purple; 
+    color: #fff; 
+}
+
+.input-group-text i {
+    color: #000000;
+}
+
+.corner-image {
+    position: fixed;
+    top: 0;
+    right: 50px; 
+    width: 170px;
+    height: 60px;
+    z-index: 1;
+}
+
+.container-content {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.container-content::-webkit-scrollbar {
+    display: none; 
+}
+
+.btn-purple {
+    background-color: purple;
+    color: white;
+}
+
+.fa-image {
+    cursor: pointer; 
+    color: rgb(0, 0, 0); 
+}
+
+.fa-image:hover {
+    color: darkpurple; 
+}

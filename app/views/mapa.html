@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa</title>
+    <style>
+        /* Estilos para el contenedor del mapa */
+        body {
+            overflow: hidden; /* Evita el desplazamiento en el cuerpo de la página */
+        }
+
+        #map-container {
+            height: 500px;
+            width: 100%;
+            overflow: hidden; /* Oculta la barra de desplazamiento */
+        }
+
+        #map {
+            height: calc(100% + 16px); /* Ajusta el tamaño del mapa para compensar el ancho de la barra de desplazamiento */
+            width: calc(100% + 16px); /* Ajusta el tamaño del mapa para compensar el ancho de la barra de desplazamiento */
+            margin: -8px; /* Ajusta el margen para mantener el tamaño correcto del mapa */
+        }
+    </style>
+</head>
+<body>
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
+    <script src="../controllers/mapa.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9TPtQVo1d15jPaORSaA082SlBqiv_f8s&callback=iniciarMap"></script>
+    
+</body>
+</html>

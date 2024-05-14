@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center;
+    background-image: url('img/fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
+    background-position: center;
+}
+
+#sidebar {
+    background: rgb(34, 34, 34); /* Color morado */
+    width: 180px;
+    height: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    background-color: rgb(43, 43, 43);
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#content {
+    flex-grow: 1;
+    padding: 20px;
+    height: 85%;
+    overflow-y: auto; /* Agrega scroll vertical solo cuando sea necesario */
+}
+
+.container-content {
+    background-color: #E6E6E6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+    max-height: 100%;
+    overflow-y: auto; /* Agrega scroll solo cuando el contenido excede el tamaño del contenedor */
+}
+
+.menu-item {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.white-text {
+    color: white;
+}
+
+.menu-item:hover {
+    background-color: #c4c0c0; 
+    color: #000; 
+}
+
+.container-content {
+    background-color: #E6E6E6; /* Color morado violeta */
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 200px;
+}
+.inner-container {
+    /*border: 2px solid #a8a8ac; /* Borde morado alrededor del contenedor interno */
+    background-color: #D9D9D9; /* Color morado violeta */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px; /* Espacio entre contenedores */
+}
+
+.otro-contenedor {
+    /*border: 2px solid #a8a8ac; /* Borde morado alrededor del contenedor interno */
+    background-color: #d0d0d3; /* Color morado violeta */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px; /* Espacio entre contenedores */
+}
+
+.avatar-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    margin-bottom: 10px; /* Espacio inferior entre el avatar y las demás opciones */
+}
+
+.avatar-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%; /* Ajusta la imagen para que sea circular */
+}
+
+.avatar-container-large {
+    width: 200px; /* Ajusta el tamaño del contenedor según sea necesario */
+    height: 200px; /* Ajusta el tamaño del contenedor según sea necesario */
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    margin-bottom: 20px; /* Espacio inferior entre el avatar y las demás opciones */
+}
+
+.avatar-img-large {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%; /* Ajusta la imagen para que sea circular */
+}
+
+/* Estilo para los inputs */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    background-color: #B8B8B8; /* Cambia el color de fondo */
+    border-radius: 20px; /* Hace los inputs redondos */
+    padding: 10px; /* Añade espacio interno */
+    border: none; /* Quita el borde */
+    margin-bottom: 10px; /* Añade espacio entre los inputs */
+    color: black;
+    outline: none;
+}
+
+/* Estilo para el botón de buscar */
+.btn-buscar {
+    background-color: purple; /* Color morado */
+    border-color: purple; /* Color del borde igual al fondo */
+    color: #fff; /* Color del texto */
+}
+
+/* Estilo para el ícono dentro del botón de buscar */
+.input-group-text i {
+    color: #000000; /* Color del ícono */
+}
+
+/* Estilo para la imagen en la esquina superior */
+.corner-image {
+    position: fixed;
+    top: 0;
+    right: 50px; /* Ajusta este valor según lo necesites para mover la imagen más a la izquierda */
+    width: 170px;
+    height: 60px;
+    z-index: 1;
+}
+
+.container-content {
+    scrollbar-width: none; /* Oculta el scrollbar en navegadores compatibles */
+    -ms-overflow-style: none; /* Oculta el scrollbar en Internet Explorer y Edge */
+}
+
+.container-content::-webkit-scrollbar {
+    display: none; /* Oculta el scrollbar en navegadores WebKit como Chrome y Safari */
+}
+
+.btn-purple {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.fa-image {
+    cursor: pointer; /* Cambia el cursor a una mano */
+    color: rgb(0, 0, 0); /* Cambia el color del icono */
+}
+
+.fa-image:hover {
+    color: darkpurple; /* Cambia el color del icono cuando se pasa el cursor sobre él */
+}
